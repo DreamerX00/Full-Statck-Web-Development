@@ -1,0 +1,11 @@
+td{
+    border: 2px solid hotpink;
+}
+th{
+    border: 2px solid rgb(133, 14, 111);
+}
+table{
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+
