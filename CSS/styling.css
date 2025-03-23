@@ -2,3 +2,24 @@ body{
     background-color: black;
     color: white;
 }
+
+p{
+    color: rgb(81, 190, 212);
+}
+
+#clickme{
+    color: blue;
+    border-color: white;
+    border-radius: 12px;
+}
+
+.clickme{
+    background-color: rgb(247, 20, 20);
+}
+
+div{
+    display: flex;
+    flex: content;
+    align-items: center;
+
+}
