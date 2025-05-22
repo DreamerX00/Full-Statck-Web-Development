@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    background-color: rgb(141, 193, 193);
+}
+.box1{
+    color: rgb(84, 228, 12);
+    border: 2px solid rgb(0, 208, 255);
+    background-color: rgb(91, 7, 20);
+    margin: 20px;
+    padding: 20px;
+    width: 132px;
+    box-sizing: border-box;
+}
+.box2{
+    color: #8601afa5;
+    border: 2px solid rgb(0, 208, 255);
+    background-color: rgba(205, 27, 53, 0.396);
+    margin: 20px;
+    padding: 20px;
+    width: 132px;
+    box-sizing: border-box;
+    /* 
+    box-sizing: border-box; is a CSS property that controls how an element's total width and height are calculated. Normally, the default box model (content-box) only includes the content size, and padding and borders are added on top of it, which can sometimes make layouts tricky.
+    When you use border-box, the padding and border are included inside the width and height you set, meaning your element won’t accidentally become larger than expected.
+    */
+}
+

@@ -1,0 +1,53 @@
+
+/*Tag Selector*/
+div{
+    background-color: blanchedalmond;
+}
+
+/* Class Selector */
+.newClass{
+    background-color: rgb(240, 198, 92);
+}
+
+/* Id Selector */
+#newId{
+    background-color: rgb(242, 102, 36);
+}
+
+/* Child Selector */
+div > p {
+    background-color: rgb(112, 230, 22);
+}
+
+/* Descendant Selector */
+pre p {
+    background-color: rgb(153, 26, 250);
+}
+
+
+/* Universal Selector */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Pseduo Selector  */
+a:visited{
+    background-color:yellow;
+    color: red;
+}
+a:link{
+    background-color: black;
+    color: white;
+}
+a:active{
+    color: blue;
+}
+
+p:hover{
+    background-color: black;
+}
+p:first-child{ 
+    background-color: rgb(244, 130, 162);
+    /* This Helps In Adding First Child Of Every Parent Gets A Child */
+}
