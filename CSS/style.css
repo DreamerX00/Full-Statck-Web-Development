@@ -9,3 +9,21 @@ table{
     color: rgb(255, 255, 255);
 }
 
+button{
+    margin: 8px;
+    padding: 8px;
+    background-color: rgba(112, 7, 119, 0.803);
+    border: 1px transparent;
+    border-radius: 8px;
+    box-sizing: border-box;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3)
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+    transition: 20px;
+    transform: scale(1.5);
+    transform: translate(5px, 5px);
+    box-shadow: 2px 0px 15px rgba(81, 78, 81, 0.8)
+}

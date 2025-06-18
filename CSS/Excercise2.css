@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Playpen+Sans+Deva:wght@100..800&display=swap");
+body {
+  background: #c31432; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #240b36,
+    #c31432
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #240b36,
+    #c31432
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+div {
+  background: #c94b4b; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #4b134f,
+    #c94b4b
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #4b134f,
+    #c94b4b
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  border: 2px solid transparent;
+  border-radius: 12px;
+  margin: 80px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div p {
+  background-color: rgba(228, 175, 175, 0.546);
+  border: 2px solid transparent;
+  border-radius: 8px;
+  margin: 2px 80px 8px 80px;
+  padding: 8px;
+}
+
+div p {
+  font-family: "Playpen Sans Deva", cursive;
+  font-optical-sizing: auto;
+  font-weight: 20px;
+  font-style: normal;
+  text-align: center;
+}
+div header {
+  background-color: rgba(235, 116, 140, 0.717);
+  color: white;
+  border: 2px solid transparent;
+  border-radius: 12px;
+
+  padding: 7px;
+
+  width: 340px;
+}
+
+div header {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: bolder;
+  text-align: center;
+  margin: 2px auto 8px; /* auto handles left/right centering */
+}
+
+div audio {
+  background-color: rgba(228, 101, 73, 0.644);
+  margin: 2px 280px 8px;
+  padding: 8px;
+  border-radius: 30px;
+
+}
+
+div audio:hover {
+  background-color: rgba(73, 228, 140, 0.644);
+}
+
+div p:hover {
+  background-color: white;
+  color: red;
+  font-weight: bolder;
+}
+
+div iframe{
+    display: block;
+    margin: 80px auto 8px;
+    background-color: white;
+    padding: 8px;
+    border-radius: 30px;
+}
+
+div p:hover{
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+
+
