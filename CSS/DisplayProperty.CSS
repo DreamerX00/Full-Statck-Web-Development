@@ -1,0 +1,36 @@
+.box{
+    border: 3px solid magenta;
+    display: inline;
+    /* this makes it an inline element which makes it
+    non altere by width or any margin etc.*/
+
+
+    display: inline-block;
+    /* Now other property will work */
+
+
+    padding: 12px;
+    margin: auto;
+    font-size: 2rem;
+
+    
+
+}
+
+.box2{
+    border: 2px solid red;
+    display: inline-block;
+    padding: 12px;
+    margin: auto;
+
+    /* this will hide this block but the area remain */
+    visibility: hidden;
+}
+
+.flex{
+    border: 3px solid aquamarine;
+    display: flex;
+    width: 320px;
+
+    display: inline-flex;
+}

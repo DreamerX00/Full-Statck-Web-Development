@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Specificity and Cascade</title>
+    <link rel="stylesheet" href="../CSS/CSSspecificity.css">
+</head>
+<body>
+    <div>
+        <p class="A B C D">
+            The Text Will Always Show Changes made from last class
+        </p>
+        <p style="color: peru;" class="A B C D">
+            The Text Will Always Show Changes made from style
+            since style tag is super class of all attributes 
+        </p>
+        <h1 style="color: peru;" class="E F G H">
+            This is Same But One class is marked as important 
+        </h1>
+    </div>
+</body>
+</html>

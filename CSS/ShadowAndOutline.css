@@ -1,0 +1,19 @@
+img{
+    border: 2px solid orangered;
+    box-sizing: border-box;
+    border-radius: 50px;
+    display: flex;
+    margin: 3rem auto;
+    width: 90vw;
+}
+
+.boxOutline{
+    border: transparent;
+    outline: 2px solid black;
+    outline-offset: 1.2rem;
+}
+
+.boxShadow{
+    box-shadow: 2px 2px 14px 2px goldenrod;
+    
+}

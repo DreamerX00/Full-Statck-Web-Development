@@ -1,0 +1,25 @@
+img{
+    background-color: grey;
+    padding: 2px;
+    width:100vw ;
+    height: 35vh;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+div img{
+    background-color: red;
+    padding: 4px;
+    border: transparent;
+  
+}
+
+div> .text{
+    font-size: 2em;
+    /* rem is value multiply Rootsize, and rem is just  value multiply by default or inherited size */
+}
+
+div > .text2{
+    width: 100vmin;
+}

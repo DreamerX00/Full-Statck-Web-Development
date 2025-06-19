@@ -24,6 +24,10 @@ pre p {
     background-color: rgb(153, 26, 250);
 }
 
+p[data-x=a]{
+    background-color: rgb(124, 41, 124);
+    color: white;
+}
 
 /* Universal Selector */
 *{
