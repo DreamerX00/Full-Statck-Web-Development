@@ -29,11 +29,8 @@ div {
 
   border: 2px solid transparent;
   border-radius: 12px;
-  margin: 80px;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  margin: 10vw 10vw;
+  text-align: center;
 }
 
 div p {
@@ -73,14 +70,15 @@ div header {
 
 div audio {
   background-color: rgba(228, 101, 73, 0.644);
-  margin: 2px 280px 8px;
-  padding: 8px;
   border-radius: 30px;
+  text-align: center;
+  border: 8px solid red;
+  border-radius: 40px;
 
 }
 
 div audio:hover {
-  background-color: rgba(73, 228, 140, 0.644);
+  border: 8px solid green;
 }
 
 div p:hover {
@@ -90,11 +88,11 @@ div p:hover {
 }
 
 div iframe{
-    display: block;
-    margin: 80px auto 8px;
     background-color: white;
-    padding: 8px;
     border-radius: 30px;
+    width: 365px;
+    text-align: center;
+    
 }
 
 div p:hover{

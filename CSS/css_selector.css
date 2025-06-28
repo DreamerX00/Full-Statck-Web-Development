@@ -35,7 +35,7 @@ p[data-x=a]{
     margin: 0;
 }
 
-/* Pseduo Selector  */
+/* Pseudo Selector  */
 a:visited{
     background-color:yellow;
     color: red;

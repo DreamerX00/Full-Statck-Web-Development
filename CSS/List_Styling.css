@@ -1,0 +1,22 @@
+/* we can remove dots from <li> we can do - display:block but it's not considere good approach */
+/* instead use list-style */
+
+nav ul li{
+    padding: 10px 8px;
+    list-style: devanagari;
+    background-color: brown;
+
+    /* now markers will also come inside the box */
+    list-style-position: inside;
+
+    /* to Set emojis as a marker */
+    list-style-type: "😎";
+
+    /* to Set an Image as a marker */
+    /* list-style-image:url("../res/Image/rocket.gif") ; */
+
+}
+
+nav ul{
+    display: flex;
+}
