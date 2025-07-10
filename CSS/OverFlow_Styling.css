@@ -1,0 +1,16 @@
+.box{
+    width: 30vw;
+    height: 20vh;
+    border: 2px solid rgb(115, 9, 221);
+    /* sets content scroll if overflow  */
+    overflow: auto;
+    /* sets wrap to be a single line and not a paragraph */
+    white-space: nowrap;
+    /* text-overflow: ellipsis; this add "..." after text overflows*/
+
+    /* 
+    overflow : x y
+    overflow-x : hidden auto etc.;
+    overflow-y : hidden auto etc.;
+     */
+}
