@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+
+body{
+    background-color: gainsboro;
+}
+
+.card{
+    margin: auto;
+    box-sizing: border-box;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid transparent;
+    border-radius: 8px;
+    height: auto;
+    width: 70vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.image{
+    margin: auto;
+    box-sizing: border-box;
+    padding: 2px;
+    text-align: center;
+    border: 2px transparent;
+    border-radius: 8px;
+    width: 69vw;
+    height: 62vw;
+}
+
+.cardTags{
+    padding: 5px;
+    padding-left: 12px;
+}
+.tags{
+    font-family: "Sansation", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 12px;
+    opacity: 0.5;
+    color: gray;
+    background-color: transparent;
+    border: 0.5px solid gray;
+    border-radius: 8px;
+    
+}
+
+.cardTitle{
+    font-family: "Sansation", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    width: auto;
+    padding: 5px 8px;
+}
+
+.cardPara{
+    font-family: "Sansation", sans-serif;
+    font-weight: 9;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 1.5;
+    padding: 5px 8px;
+
+}
+.cardButtonBox{
+    text-align: center;
+}
+.cardButton{
+    color: rgb(19, 132, 238);
+    border: 2px transparent;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    background-color: rgba(190, 217, 242, 0.748);
+    width: auto;
+    font-family: "Sansation", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    padding: 10px 15px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    
+}
+
+
+
