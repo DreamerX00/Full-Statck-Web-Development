@@ -142,3 +142,63 @@ console.log(!!"");
 console.log(!!1);
 
 
+// console.log(setInterval(() => console.log('First'),1000));
+// console.log(setInterval(() => console.log('Second'),1000));
+// console.log(setInterval(() => console.log('Third'),1000));
+
+
+console.log([..."Akash"]);
+
+//let data = 3+4+'5';
+// console.log(typeof data);
+
+console.log(typeof(3+4+'5'));
+
+console.log(typeof []);
+
+console.log([] == []);//different memeory locations
+
+let data = [1,2,3].map(num => {
+    if (typeof num === 'number') return;
+    return num*2;
+})
+
+console.log(data);
+
+
+function getInfo(member){
+    member.name = 'Anil';
+}
+
+const person2 = {name : 'Sarah'};
+
+getInfo(person2);
+
+console.log(person2);//pass by referense
+
+function Car(){
+    this.make = 'tata';
+    return {make : 'Kia'};
+}
+
+const myCar = new Car();
+console.log(myCar.make);
+
+console.log(Car());
+
+(() => {
+    let x = (y = 10);
+})();
+
+console.log(typeof x);
+
+(() => {
+    let x = y = 10;//global scope of y
+})();
+
+console.log(typeof y);
+
+console.log(!true - true);
+
+
+
