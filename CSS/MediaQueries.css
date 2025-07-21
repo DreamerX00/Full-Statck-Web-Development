@@ -1,0 +1,24 @@
+
+@media only screen and (max-width: 450px){
+    body{
+        background-color: hotpink;
+    }
+    .imageCollection{
+        flex-direction: column;
+    }
+  
+}
+
+.imageCollection{
+    display: flex;
+    box-sizing: border-box;
+    padding: 12px;
+    background-color: gray;
+    width: 50vw;
+    overflow: auto;
+}
+
+.imageCollection img{
+    margin: 20px;
+    width: 8rem;
+}

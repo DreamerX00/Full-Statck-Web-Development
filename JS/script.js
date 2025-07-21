@@ -104,4 +104,41 @@ var myObj = {
     age : 23
 }
 
-console.log()
+console.log(typeof(typeof(1)));
+
+const person = {name : 'Lydia'};
+
+function sayHi(age){
+    return `${this.name} is ${age}`;
+}
+ console.log(sayHi.call(person,21));
+ console.log(sayHi.bind(person,22)());//bind work only after called again like we did ()
+
+function sayHello(){
+    return (()=>0)();
+}
+
+console.log(typeof sayHello());
+
+
+function sayNewHello(){
+    return ()=>0;
+}
+
+console.log(typeof sayNewHello());
+
+console.log(typeof typeof 1);
+
+// const numbers = [1,2,3];
+// numbers[9] = 11;
+// console.log(numbers); //[ 1, 2, 3, <6 empty items>, 11 ]
+
+const numbers = [1,2,3]
+numbers[3] = numbers;
+console.log(numbers);
+
+console.log(!!null);
+console.log(!!"");
+console.log(!!1);
+
+

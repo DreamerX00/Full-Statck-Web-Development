@@ -23,11 +23,9 @@ body{
     margin: auto;
     box-sizing: border-box;
     padding: 2px;
-    text-align: center;
-    border: 2px transparent;
     border-radius: 8px;
+    display: flex;
     width: 69vw;
-    height: 62vw;
 }
 
 .cardTags{

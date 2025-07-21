@@ -1,0 +1,29 @@
+/* This is where you declare vairables that can be used across whole CSS using var() and for declaring and intializing a variable you use --"var_name" */
+
+:root{
+    --primary: rgba(41, 36, 36, 0.758);
+    --textPrimary : rgba(246, 236, 236, 0.762);
+    --defMargin : 25px;
+}
+
+
+
+.para1{
+    margin: auto;
+    /* this is how we use */
+    color: var(--textPrimary);
+    background-color: var(--primary);
+    margin-top: var(--defMargin);
+    width: 80vw;
+    text-align: center;
+    border-radius: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 8px;
+}
+
+.para2{
+    --primary : orange;
+    --textPrimary : green;
+    --defMargin : 10px;
+}
+
