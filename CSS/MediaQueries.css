@@ -3,22 +3,46 @@
     body{
         background-color: hotpink;
     }
-    .imageCollection{
-        flex-direction: column;
-    }
+  
   
 }
 
-.imageCollection{
-    display: flex;
-    box-sizing: border-box;
-    padding: 12px;
-    background-color: gray;
-    width: 50vw;
-    overflow: auto;
+@media only screen and (max-width: 440px) {
+    body{
+        background-color: blue;
+    }
+}
+@media only screen and (max-width: 430px) {
+    body{
+        background-color: rgb(0, 255, 162);
+    }
+
+    .imageCollection{
+        flex-direction: column;
+        box-sizing: content-box;
+        margin: auto;
+        padding: 0;
+        
+    }
+
+    .imageCollection img{
+        
+        flex-direction: column;
+        border-radius: 12px;
+    }
 }
 
-.imageCollection img{
+.imageCollection{
+
+    padding: 2px;
+    background-color: gray;
+    width: 50%;
+    overflow: hidden;
+
+}
+
+.imageCollection > img{
+    
     margin: 20px;
     width: 8rem;
 }

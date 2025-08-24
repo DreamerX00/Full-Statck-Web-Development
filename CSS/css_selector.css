@@ -55,3 +55,39 @@ p:first-child{
     background-color: rgb(244, 130, 162);
     /* This Helps In Adding First Child Of Every Parent Gets A Child */
 }
+
+.fl::first-line{
+    color: orange;
+}
+
+[data-color="primary"]{
+    border-radius: 2rem;
+    background-color: blueviolet;
+    padding: 8px;
+}
+
+div:nth-child(odd){
+    border-radius: 1rem;
+    background-color: salmon;
+}
+
+div:nth-child(even){
+    background-color: 4rem;
+    margin: auto;
+    text-align: center;
+    border: 2px solid rgb(11, 212, 114);
+}
+
+div:nth-last-child(even)::before{
+    content: "This is using before selector  ";
+}
+
+div:nth-last-child(even)::after{
+    content: "This is using before selector  ";
+}
+
+::selection{
+    background-color: darkgray;
+    color: snow;
+} /*this is used for text selection*/
+

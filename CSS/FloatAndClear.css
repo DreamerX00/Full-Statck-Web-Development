@@ -1,0 +1,21 @@
+.cards img{
+    float: left;
+    border: 2px solid rgba(195, 240, 18, 0.805);
+    margin: 3px;
+}
+
+.cards{
+    border: 2px solid magenta;
+    padding: 2px;
+    display: flow-root;
+}
+
+.cards .card{
+    border: 2px solid maroon;
+    margin: 2px;
+}
+
+.card:nth-child(3){
+    background-color: rgb(232, 147, 147);
+    clear: left;
+}

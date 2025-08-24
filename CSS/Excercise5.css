@@ -1,0 +1,83 @@
+:root{
+    --primaryColor : #0f2027;
+    --secondaryColor : #203A43;
+    --footerColor : #2C5364;
+    --boxColor1 : #23074d;
+    --boxColor2 : #cc5333;
+}
+
+
+.navbar{
+    overflow:auto;
+    position: fixed;
+    display: flex;
+    background-color: var(--primaryColor);
+    height: 3rem;
+    width: 100%;
+}
+
+.navbar li{
+    color: white;
+    margin: 1em;
+    list-style: none;    
+}
+
+.navbar li:hover{
+    margin: 1.2rem;
+    color: red;
+}
+body{
+    background-color: var(--secondaryColor);
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    position: inherit;
+    color: white;
+    background-color: var(--boxColor1);
+    height: 20vw;
+    width: 20vw;
+    margin: 2rem;
+    padding-left: 88px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 4rem;
+}
+
+.bottomContent{
+    background-color: var(--boxColor2);
+    height: 6em;
+    margin: 2em;
+    border-radius: 6em;
+}
+
+.footer{
+    position:inherit;
+    background-color: wheat;
+    height: 3rem;
+    width: 100%;
+    bottom: 0;
+    
+}
+
+.chatBot{
+    position: fixed;
+    margin: 1em;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(255, 255, 255);
+    height: 8vw;
+    width: 8vw;
+    border-radius: 8em;
+    z-index: 2;
+}
+
+
+@media only screen and (max-width: 450px) {
+    body {
+        background-color: var(--primaryColor);
+    }
+}
