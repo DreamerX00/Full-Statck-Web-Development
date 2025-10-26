@@ -15,7 +15,7 @@ username = "Akash";
 console.log(username);
 
 var gender;
-gender = "male"
+gender = "male";
 console.warn(gender);
 
 let counter = 0;
@@ -26,9 +26,9 @@ counter++;
 
 counter += counter++ - counter-- + counter++ + ++counter + --counter;
 
-console.log("Count Is : "+counter);
+console.log("Count Is : " + counter);
 
-console.log(2**4); //power of 2^4
+console.log(2 ** 4); //power of 2^4
 
 //Equality Operatorts
 // === Strict Equality (type + value)
@@ -43,7 +43,7 @@ console.log(10 === 10);
 //Strings in js
 console.log("   Akash Singh   ");
 let username2 = "akash Singh";
-console.log("Hello "+ username2)
+console.log("Hello " + username2);
 
 console.log(username2.length);
 console.log(username2.concat(" Is An Mca Student"));
@@ -51,9 +51,9 @@ console.log(username2.toLocaleLowerCase());
 console.log(username2.toUpperCase());
 console.log(username2.toWellFormed());
 
-console.log(username2.slice(0,8));
+console.log(username2.slice(0, 8));
 
-console.log(username2.split("s"))
+console.log(username2.split("s"));
 console.log(username2.split(" ").join("-").toUpperCase());
 
 console.log(username2.trim());
@@ -63,3 +63,10 @@ let state = "Delhi";
 
 console.log(`${city} is located in ${state}`);
 
+//both works
+console.log(typeof state);
+console.log(typeof state);
+
+let check = "88";
+let num = Number(check);
+console.log(typeof num, typeof check);
