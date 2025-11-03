@@ -1,0 +1,19 @@
+{
+  "username": "user123",
+  "email": "user123@example.com",
+  "preferences": {
+    "theme": "dark",
+    "notifications": true,
+    "language": "en"
+  },
+  "isSubscribed": true,
+  "subscriptionPlan": "premium",
+  "hobbies": ["reading", "gaming", "coding"],
+  "age": 28,
+  "address": {
+    "street": "123 Main St",
+    "city": "Anytown",
+    "state": "CA",
+    "zip": "12345"
+  }
+}
